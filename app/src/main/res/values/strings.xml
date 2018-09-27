@@ -1,3 +1,12 @@
 <resources>
+
+    <!-- Main Screen -->
     <string name="app_name">TestProject</string>
+    <string name="list_sensors">List Sensors</string>
+    <string name="sensor_one">Sensor 1</string>
+
+    <!-- -->
+    <string name="content_description_cold">Cold Temperature</string>
+    <string name = "content_description">Hot temperature</string>
+
 </resources>
