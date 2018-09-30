@@ -1,0 +1,20 @@
+sudo apt-get update && sudo apt-get upgrade
+sudo nano /etc/network/interfaces
+  auto lo
+  iface lo inet loopback
+  iface eth0 inet dhcp
+  auto wlan0
+  allow-hotplug wlan0 
+  wpa-conf /etc/wpa-supplicant/wpa_sapplicant.conf
+sudo nano /etc/wpa-supplicant/wpa_sapplicant.conf
+  ctrl_interface=/var/run/wpa_supplicant
+  ctrl_interface_group=0
+  update_config=1
+  network={
+    ssid= "Metronom"
+    psk= "planetarian#$2017"
+    proto=WPA
+    ker_mgmt=WPA-PSK
+    pairwise=TKIP
+    id_str="Siamese"
+ }
