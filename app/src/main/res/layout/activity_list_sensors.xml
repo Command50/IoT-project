@@ -32,13 +32,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/textView3"
+            android:layout_alignTop="@+id/nameSensor"
             android:layout_marginLeft="51dp"
             android:layout_marginStart="51dp"
             app:srcCompat="@drawable/hot_temperature" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/nameSensor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -62,18 +62,17 @@
             android:textSize="18sp" />
 
         <ImageButton
-
-            android:id="@+id/imageButton"
+            android:id="@+id/imageSensorOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignBottom="@+id/nameSensor"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="37dp"
             android:layout_marginEnd="37dp"
             android:background="@color/white"
             app:srcCompat="@drawable/button"
-            android:onClick="onDetailPage"/>
+            android:onClick="onClickDetailPage"/>
 
     </RelativeLayout>
 
@@ -122,7 +121,7 @@
             android:textSize="18sp" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/sensorTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -130,7 +129,7 @@
             android:layout_marginRight="37dp"
             android:background="@color/white"
             app:srcCompat="@drawable/button"
-            android:onClick="onDetailPageTwo"/>
+            android:onClick="onClickDetailPage"/>
 
     </RelativeLayout>
 </RelativeLayout>

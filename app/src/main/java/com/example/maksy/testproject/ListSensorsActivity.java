@@ -12,15 +12,33 @@ public class ListSensorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_sensors);
-
-
     }
-    public void onDetailPage(View view) {
+    public void onClickDetailPage (View v) {
+        switch (v.getId()) {
+            case R.id.imageSensorOne:
+                otherActivity();
+                break;
+            case R.id.sensorTwo:
+                otherActivity1();
+                break;
+        }
+    }
+    private void otherActivity() {
         Intent intent = new Intent(ListSensorsActivity.this, DetailPageActivivty.class);
+        intent.putExtra("status", "Connected");
+        intent.putExtra("turningtime", "17:45");
+        intent.putExtra("exceptiontime", "18:00");
+
         startActivity(intent);
     }
-    public void onDetailPageTwo (View view) {
-        Intent intent = new Intent(ListSensorsActivity.this, DetailPageActivityTwo.class);
+    private void otherActivity1() {
+        Intent intent = new Intent(ListSensorsActivity.this, DetailPageActivivty.class);
+        intent.putExtra("status", "Not connected");
+        intent.putExtra("turningtime", "10:00");
+        intent.putExtra("exceptiontime", "10:20");
         startActivity(intent);
     }
+
+
+
 }

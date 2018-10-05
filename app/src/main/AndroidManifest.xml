@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DetailPageActivivty"/>
-        <activity android:name=".DetailPageActivityTwo"/>
         <activity android:name=".ListSensorsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

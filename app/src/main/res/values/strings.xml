@@ -5,8 +5,16 @@
     <string name="list_sensors">List Sensors</string>
     <string name="sensor_one">Sensor 1</string>
 
+
     <!-- -->
     <string name="content_description_cold">Cold Temperature</string>
     <string name = "content_description">Hot temperature</string>
+    <string name="detail_page">Detail Page</string>
+    <string name="status">Status:</string>
 
+    <!-- Info sensors-->
+    <string name="connected">Connected</string>
+    <string name="turning_on_time">Turning on time:</string>
+    <string name="exception_time">Exception time:</string>
+    <string name="total_working_time">Total working time</string>
 </resources>
