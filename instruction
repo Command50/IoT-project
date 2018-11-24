@@ -1,0 +1,11 @@
+1. sudo nano /boot/config.txt
+2. sudo reboot
+3. sudo modprobe w1-grio
+4. sudo modprobe w1-therm
+5. cd /sys/bus/w1/devices
+6. ls
+7. cd 28-0b648c116461
+8. cat w1_slave
+9. cd
+10. sudo nano temp.py
+11. sudo python temp.py
