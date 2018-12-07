@@ -1,20 +1,13 @@
 <resources>
-
-    <!-- Main Screen -->
-    <string name="app_name">TestProject</string>
-    <string name="list_sensors">List Sensors</string>
-    <string name="sensor_one">Sensor 1</string>
-
-
-    <!-- -->
-    <string name="content_description_cold">Cold Temperature</string>
-    <string name = "content_description">Hot temperature</string>
-    <string name="detail_page">Detail Page</string>
-    <string name="status">Status:</string>
-
-    <!-- Info sensors-->
-    <string name="connected">Connected</string>
-    <string name="turning_on_time">Turning on time:</string>
-    <string name="exception_time">Exception time:</string>
-    <string name="total_working_time">Total working time</string>
+    <string name="app_name">SmarEL</string>
+    <string name="data_found">Found</string>
+    <string name="no_data_found">No Data found!</string>
+    <string name="error_connection">Internet/DB_Credentials/Windows_FireWall_TurnOn Error, 
+                                    See Android Monitor in the bottom For details!</string>
+    <string name="loading_list_sensors">Sensor List Loading! Please Wait...</string>
+    <string name="detail_page_loading">"Detail Page Loading! Please Wait..."</string>
+    <!-- layout -->
+    <string name="max_value">Max Value</string>
+    <string name="min_value">Min Value</string>
+    <string name="avr_value">Average Value</string>
 </resources>
